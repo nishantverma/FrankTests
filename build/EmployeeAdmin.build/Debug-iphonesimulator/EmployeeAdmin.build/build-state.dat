@@ -1,0 +1,967 @@
+TEmployeeAdmin
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Frank/frankified_build/./EmployeeAdmin.app/Info.plist EmployeeAdmin-Info.plist
+cSymLink /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/Debug-iphonesimulator/EmployeeAdmin.app /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Frank/frankified_build/./EmployeeAdmin.app
+cCompileXIB /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/iPhone/MainWindow_Phone.xib
+cCompileXIB /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/iPad/MainWindow_Pad.xib
+cProcessPCH /var/folders/3j/6z80gvr17wj5zs7y3hlp6j4m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/EmployeeAdmin_Prefix-dbgknbdmhggaojgdafvxwiziugni/EmployeeAdmin_Prefix.pch.pth EmployeeAdmin_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/AppDelegate_Pad.o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/iPad/AppDelegate_Pad.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/CreateUserCommand.o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/CreateUserCommand.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/ApplicationFacade.o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/ApplicationFacade.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/DeleteUserCommand.o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/DeleteUserCommand.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/AppDelegate_Phone.o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/iPhone/AppDelegate_Phone.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/GetUserRolesCommand.o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/GetUserRolesCommand.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/GetUsersCommand.o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/GetUsersCommand.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/StartupCommand.o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/StartupCommand.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UpdateUserCommand.o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/UpdateUserCommand.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UpdateUserRolesCommand.o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/UpdateUserRolesCommand.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserRolesEnum.o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/model/enum/UserRolesEnum.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserProxy.o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/model/UserProxy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserRolesProxy.o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/model/UserRolesProxy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserRolesVO.o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/model/vo/UserRolesVO.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserVO.o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/model/vo/UserVO.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/EmployeeAdmin.o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/components/EmployeeAdmin.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserForm.o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/components/UserForm.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserList.o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/components/UserList.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserRoles.o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/components/UserRoles.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/EmployeeAdminMediator.o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/EmployeeAdminMediator.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserFormMediator.o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/UserFormMediator.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserListMediator.o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/UserListMediator.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserRolesMediator.o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/UserRolesMediator.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/main.o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Frank/frankified_build/./EmployeeAdmin.app/EmployeeAdmin normal i386
+cGenerateDSYMFile /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/Debug-iphonesimulator/EmployeeAdmin.app.dSYM /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Frank/frankified_build/./EmployeeAdmin.app/EmployeeAdmin
+cTouch /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Frank/frankified_build/./EmployeeAdmin.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk
+c00000000504916AD0000000000000110
+t1346967213
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000506E4CE50000000000228FD0
+t1349405925
+s2265040
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000506E4CE600000000003DCEF0
+t1349405926
+s4050672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c00000000506E4CE600000000000015F7
+t1349405926
+s5623
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c00000000506E4CE90000000000000E8D
+t1349405929
+s3725
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000506E4CEA0000000000AB3D60
+t1349405930
+s11222368
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/EmployeeAdmin_Prefix.pch
+c00000000507516C600000000000000C3
+t1349850822
+s195
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Frank/frankified_build/./EmployeeAdmin.app
+t2
+s0
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Frank/frankified_build/./EmployeeAdmin.app/EmployeeAdmin
+t2
+s0
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Frank/frankified_build/./EmployeeAdmin.app/Info.plist
+t2
+s0
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Frank/frankified_build/./EmployeeAdmin.app/MainWindow_Pad.nib
+t2
+s0
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Frank/frankified_build/./EmployeeAdmin.app/MainWindow_Phone.nib
+t2
+s0
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Frank/frankified_build/./EmployeeAdmin.app/PkgInfo
+t2
+s0
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/lib/PureMVC/PureMVC_ObjectiveC_1_1.a
+c00000000507516C6000000000002A840
+t1349850822
+s174144
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/lib/PureMVC/headers/Facade.h
+c00000000507516C600000000000005E6
+t1349850822
+s1510
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/lib/PureMVC/headers/ICommand.h
+c00000000507516C6000000000000015E
+t1349850822
+s350
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/lib/PureMVC/headers/IController.h
+c00000000507516C6000000000000083A
+t1349850822
+s2106
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/lib/PureMVC/headers/IFacade.h
+c00000000507516C60000000000001285
+t1349850822
+s4741
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/lib/PureMVC/headers/IMediator.h
+c00000000507516C600000000000009EE
+t1349850822
+s2542
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/lib/PureMVC/headers/IModel.h
+c00000000507516C6000000000000057C
+t1349850822
+s1404
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/lib/PureMVC/headers/INotification.h
+c00000000507516C60000000000000636
+t1349850822
+s1590
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/lib/PureMVC/headers/INotifier.h
+c00000000507516C600000000000005F8
+t1349850822
+s1528
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/lib/PureMVC/headers/IObserver.h
+c00000000507516C60000000000000896
+t1349850822
+s2198
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/lib/PureMVC/headers/IProxy.h
+c00000000507516C600000000000004F9
+t1349850822
+s1273
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/lib/PureMVC/headers/IView.h
+c00000000507516C60000000000000EB9
+t1349850822
+s3769
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/lib/PureMVC/headers/Mediator.h
+c00000000507516C60000000000000362
+t1349850822
+s866
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/lib/PureMVC/headers/Notifier.h
+c00000000507516C60000000000000514
+t1349850822
+s1300
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/lib/PureMVC/headers/Proxy.h
+c00000000507516C600000000000005C6
+t1349850822
+s1478
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/lib/PureMVC/headers/SimpleCommand.h
+c00000000507516C60000000000000280
+t1349850822
+s640
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/main.m
+c00000000507516C600000000000000C7
+t1349850822
+s199
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/ApplicationFacade.h
+c00000000507516C600000000000003B5
+t1349850822
+s949
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/ApplicationFacade.m
+c00000000507516C600000000000004F0
+t1349850822
+s1264
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/CreateUserCommand.h
+c00000000507516C60000000000000123
+t1349850822
+s291
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/CreateUserCommand.m
+c00000000507516C600000000000002AF
+t1349850822
+s687
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/DeleteUserCommand.h
+c00000000507516C60000000000000123
+t1349850822
+s291
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/DeleteUserCommand.m
+c00000000507516C60000000000000204
+t1349850822
+s516
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/GetUserRolesCommand.h
+c00000000507516C60000000000000127
+t1349850822
+s295
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/GetUserRolesCommand.m
+c00000000507516C60000000000000252
+t1349850822
+s594
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/GetUsersCommand.h
+c00000000507516C60000000000000120
+t1349850822
+s288
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/GetUsersCommand.m
+c00000000507516C60000000000000207
+t1349850822
+s519
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/StartupCommand.h
+c00000000507516C60000000000000134
+t1349850822
+s308
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/StartupCommand.m
+c00000000507516C600000000000003E4
+t1349850822
+s996
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/UpdateUserCommand.h
+c00000000507516C60000000000000123
+t1349850822
+s291
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/UpdateUserCommand.m
+c00000000507516C600000000000002AF
+t1349850822
+s687
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/UpdateUserRolesCommand.h
+c00000000507516C6000000000000012D
+t1349850822
+s301
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/UpdateUserRolesCommand.m
+c00000000507516C6000000000000024C
+t1349850822
+s588
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/model/UserProxy.h
+c00000000507516C60000000000000162
+t1349850822
+s354
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/model/UserProxy.m
+c00000000507516C60000000000000644
+t1349850822
+s1604
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/model/UserRolesProxy.h
+c00000000507516C60000000000000184
+t1349850822
+s388
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/model/UserRolesProxy.m
+c00000000507516C60000000000000610
+t1349850822
+s1552
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/model/enum/UserRolesEnum.h
+c00000000507516C6000000000000010D
+t1349850822
+s269
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/model/enum/UserRolesEnum.m
+c00000000507516C6000000000000022A
+t1349850822
+s554
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/model/vo/UserRolesVO.h
+c00000000507516C600000000000001EA
+t1349850822
+s490
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/model/vo/UserRolesVO.m
+c00000000507516C6000000000000029F
+t1349850822
+s671
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/model/vo/UserVO.h
+c00000000507516C600000000000002F1
+t1349850822
+s753
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/model/vo/UserVO.m
+c00000000507516C6000000000000050C
+t1349850822
+s1292
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/EmployeeAdminMediator.h
+c00000000507516C60000000000000120
+t1349850822
+s288
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/EmployeeAdminMediator.m
+c00000000507516C60000000000000526
+t1349850822
+s1318
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/UserFormMediator.h
+c00000000507516C60000000000000181
+t1349850822
+s385
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/UserFormMediator.m
+c00000000507516C600000000000005B1
+t1349850822
+s1457
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/UserListMediator.h
+c00000000507516C60000000000000180
+t1349850822
+s384
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/UserListMediator.m
+c00000000507516C6000000000000048C
+t1349850822
+s1164
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/UserRolesMediator.h
+c00000000507516C60000000000000142
+t1349850822
+s322
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/UserRolesMediator.m
+c00000000507516C60000000000000475
+t1349850822
+s1141
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/components/EmployeeAdmin.h
+c00000000507516C60000000000000339
+t1349850822
+s825
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/components/EmployeeAdmin.m
+c00000000507516C600000000000005A7
+t1349850822
+s1447
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/components/UserForm.h
+c00000000507516C6000000000000045E
+t1349850822
+s1118
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/components/UserForm.m
+c00000000507516C600000000000010A7
+t1349850822
+s4263
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/components/UserList.h
+c00000000507516C600000000000002CE
+t1349850822
+s718
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/components/UserList.m
+c00000000507516C600000000000008FB
+t1349850822
+s2299
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/components/UserRoles.h
+c00000000507516C600000000000002FE
+t1349850822
+s766
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/components/UserRoles.m
+c00000000507516C60000000000000AC8
+t1349850822
+s2760
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/Debug-iphonesimulator/EmployeeAdmin.app
+t2
+s0
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/Debug-iphonesimulator/EmployeeAdmin.app.dSYM
+t2
+s0
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/AppDelegate_Pad.o
+t2
+s0
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/AppDelegate_Phone.o
+t2
+s0
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/ApplicationFacade.o
+t2
+s0
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/CreateUserCommand.o
+t2
+s0
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/DeleteUserCommand.o
+t2
+s0
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/EmployeeAdmin.LinkFileList
+c000000005076A5230000000000000E9F
+t1349952803
+s3743
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/EmployeeAdmin.o
+t2
+s0
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/EmployeeAdminMediator.o
+t2
+s0
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/GetUserRolesCommand.o
+t2
+s0
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/GetUsersCommand.o
+t2
+s0
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/StartupCommand.o
+t2
+s0
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UpdateUserCommand.o
+t2
+s0
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UpdateUserRolesCommand.o
+t2
+s0
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserForm.o
+t2
+s0
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserFormMediator.o
+t2
+s0
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserList.o
+t2
+s0
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserListMediator.o
+t2
+s0
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserProxy.o
+t2
+s0
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserRoles.o
+t2
+s0
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserRolesEnum.o
+t2
+s0
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserRolesMediator.o
+t2
+s0
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserRolesProxy.o
+t2
+s0
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserRolesVO.o
+t2
+s0
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserVO.o
+t2
+s0
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/iPad/AppDelegate_Pad.h
+c00000000507516C6000000000000013E
+t1349850822
+s318
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/iPad/AppDelegate_Pad.m
+c00000000507516C600000000000002C8
+t1349850822
+s712
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/iPad/MainWindow_Pad.xib
+c00000000507516C60000000000003BE7
+t1349850822
+s15335
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/iPhone/AppDelegate_Phone.h
+c00000000507516C60000000000000142
+t1349850822
+s322
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/iPhone/AppDelegate_Phone.m
+c00000000507516C600000000000002CE
+t1349850822
+s718
+
+N/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/iPhone/MainWindow_Phone.xib
+c00000000507516C60000000000003F7B
+t1349850822
+s16251
+
+N/var/folders/3j/6z80gvr17wj5zs7y3hlp6j4m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/EmployeeAdmin_Prefix-dbgknbdmhggaojgdafvxwiziugni/EmployeeAdmin_Prefix.pch.pth
+t2
+s0
+
+NEmployeeAdmin-Info.plist
+c00000000507516C60000000000000567
+t1349850822
+s1383
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies198f96a3dc26b641^ec51a4a3dc26b641^---0#1#0#--18"Check dependencies36"5C3F859C-94E8-428F-8839-2B5CA37A09DD-
+
+CCompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/AppDelegate_Pad.o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/iPad/AppDelegate_Pad.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s371645604.928282
+e371645605.031423
+r1
+xCompileC
+xbuild/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/AppDelegate_Pad.o
+x/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/iPad/AppDelegate_Pad.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/iPad/AppDelegate_Pad.me5d1eda4dc26b641^022a08a5dc26b641^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/iPad/AppDelegate_Pad.m0000000000000000^4150"CompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/AppDelegate_Pad.o iPad/AppDelegate_Pad.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Admin/.rvm/gems/ruby-1.9.3-p194/bin:/Users/Admin/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/Admin/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/Admin/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/Admin/android-sdks:/Users/Admin/android-sdks/tools:/Users/Admin/android-sdks/platform-tools:/Users/Admin/android-sdks/add-ons"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=4.3 -iquote /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-generated-files.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-own-target-headers.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-all-target-headers.hmap -iquote /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-project-headers.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/DerivedSources/i386 -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/DerivedSources -F/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/Debug-iphonesimulator -include /var/folders/3j/6z80gvr17wj5zs7y3hlp6j4m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/EmployeeAdmin_Prefix-dbgknbdmhggaojgdafvxwiziugni/EmployeeAdmin_Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/AppDelegate_Pad.d --serialize-diagnostics /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/AppDelegate_Pad.dia -c /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/iPad/AppDelegate_Pad.m -o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/AppDelegate_Pad.o36"E914C7A8-6455-4E03-AD2C-FADC8F11D931-
+
+CCompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/AppDelegate_Phone.o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/iPhone/AppDelegate_Phone.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s371645605.009913
+e371645605.099968
+r1
+xCompileC
+xbuild/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/AppDelegate_Phone.o
+x/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/iPhone/AppDelegate_Phone.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/iPhone/AppDelegate_Phone.m77bf02a5dc26b641^ea9619a5dc26b641^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/iPhone/AppDelegate_Phone.m0000000000000000^4166"CompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/AppDelegate_Phone.o iPhone/AppDelegate_Phone.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Admin/.rvm/gems/ruby-1.9.3-p194/bin:/Users/Admin/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/Admin/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/Admin/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/Admin/android-sdks:/Users/Admin/android-sdks/tools:/Users/Admin/android-sdks/platform-tools:/Users/Admin/android-sdks/add-ons"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=4.3 -iquote /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-generated-files.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-own-target-headers.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-all-target-headers.hmap -iquote /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-project-headers.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/DerivedSources/i386 -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/DerivedSources -F/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/Debug-iphonesimulator -include /var/folders/3j/6z80gvr17wj5zs7y3hlp6j4m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/EmployeeAdmin_Prefix-dbgknbdmhggaojgdafvxwiziugni/EmployeeAdmin_Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/AppDelegate_Phone.d --serialize-diagnostics /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/AppDelegate_Phone.dia -c /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/iPhone/AppDelegate_Phone.m -o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/AppDelegate_Phone.o36"93D3D823-2657-4CF1-9A59-051F3E36498F-
+
+CCompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/ApplicationFacade.o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/ApplicationFacade.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s371645604.928388
+e371645605.009220
+r1
+xCompileC
+xbuild/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/ApplicationFacade.o
+x/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/ApplicationFacade.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection138"Compile /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/ApplicationFacade.m5ed5eda4dc26b641^957e02a5dc26b641^---0#0#0#-19%DVTDocumentLocation2@146"file://localhost/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/ApplicationFacade.m0000000000000000^4272"CompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/ApplicationFacade.o Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/ApplicationFacade.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Admin/.rvm/gems/ruby-1.9.3-p194/bin:/Users/Admin/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/Admin/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/Admin/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/Admin/android-sdks:/Users/Admin/android-sdks/tools:/Users/Admin/android-sdks/platform-tools:/Users/Admin/android-sdks/add-ons"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=4.3 -iquote /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-generated-files.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-own-target-headers.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-all-target-headers.hmap -iquote /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-project-headers.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/DerivedSources/i386 -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/DerivedSources -F/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/Debug-iphonesimulator -include /var/folders/3j/6z80gvr17wj5zs7y3hlp6j4m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/EmployeeAdmin_Prefix-dbgknbdmhggaojgdafvxwiziugni/EmployeeAdmin_Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/ApplicationFacade.d --serialize-diagnostics /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/ApplicationFacade.dia -c /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/ApplicationFacade.m -o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/ApplicationFacade.o36"FA3A4365-6704-4E87-8488-DB927B4B9483-
+
+CCompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/CreateUserCommand.o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/CreateUserCommand.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s371645604.928383
+e371645605.008675
+r1
+xCompileC
+xbuild/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/CreateUserCommand.o
+x/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/CreateUserCommand.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection149"Compile /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/CreateUserCommand.m30d4eda4dc26b641^0b7b02a5dc26b641^---0#0#0#-19%DVTDocumentLocation2@157"file://localhost/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/CreateUserCommand.m0000000000000000^4294"CompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/CreateUserCommand.o Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/CreateUserCommand.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Admin/.rvm/gems/ruby-1.9.3-p194/bin:/Users/Admin/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/Admin/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/Admin/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/Admin/android-sdks:/Users/Admin/android-sdks/tools:/Users/Admin/android-sdks/platform-tools:/Users/Admin/android-sdks/add-ons"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=4.3 -iquote /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-generated-files.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-own-target-headers.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-all-target-headers.hmap -iquote /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-project-headers.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/DerivedSources/i386 -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/DerivedSources -F/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/Debug-iphonesimulator -include /var/folders/3j/6z80gvr17wj5zs7y3hlp6j4m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/EmployeeAdmin_Prefix-dbgknbdmhggaojgdafvxwiziugni/EmployeeAdmin_Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/CreateUserCommand.d --serialize-diagnostics /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/CreateUserCommand.dia -c /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/CreateUserCommand.m -o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/CreateUserCommand.o36"EEC4E644-5215-4D66-8247-5F1E62B8ABCF-
+
+CCompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/DeleteUserCommand.o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/DeleteUserCommand.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s371645604.928885
+e371645605.009541
+r1
+xCompileC
+xbuild/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/DeleteUserCommand.o
+x/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/DeleteUserCommand.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection149"Compile /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/DeleteUserCommand.meaebeda4dc26b641^bf8002a5dc26b641^---0#0#0#-19%DVTDocumentLocation2@157"file://localhost/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/DeleteUserCommand.m0000000000000000^4294"CompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/DeleteUserCommand.o Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/DeleteUserCommand.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Admin/.rvm/gems/ruby-1.9.3-p194/bin:/Users/Admin/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/Admin/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/Admin/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/Admin/android-sdks:/Users/Admin/android-sdks/tools:/Users/Admin/android-sdks/platform-tools:/Users/Admin/android-sdks/add-ons"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=4.3 -iquote /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-generated-files.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-own-target-headers.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-all-target-headers.hmap -iquote /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-project-headers.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/DerivedSources/i386 -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/DerivedSources -F/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/Debug-iphonesimulator -include /var/folders/3j/6z80gvr17wj5zs7y3hlp6j4m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/EmployeeAdmin_Prefix-dbgknbdmhggaojgdafvxwiziugni/EmployeeAdmin_Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/DeleteUserCommand.d --serialize-diagnostics /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/DeleteUserCommand.dia -c /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/DeleteUserCommand.m -o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/DeleteUserCommand.o36"B33DD813-F330-4B27-8A34-B4EAF93AA606-
+
+CCompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/EmployeeAdmin.o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/components/EmployeeAdmin.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s371645605.139480
+e371645605.233353
+r1
+xCompileC
+xbuild/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/EmployeeAdmin.o
+x/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/components/EmployeeAdmin.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection150"Compile /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/components/EmployeeAdmin.mfce123a5dc26b641^fbca3ba5dc26b641^---0#0#0#-19%DVTDocumentLocation2@158"file://localhost/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/components/EmployeeAdmin.m0000000000000000^4280"CompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/EmployeeAdmin.o Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/components/EmployeeAdmin.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Admin/.rvm/gems/ruby-1.9.3-p194/bin:/Users/Admin/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/Admin/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/Admin/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/Admin/android-sdks:/Users/Admin/android-sdks/tools:/Users/Admin/android-sdks/platform-tools:/Users/Admin/android-sdks/add-ons"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=4.3 -iquote /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-generated-files.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-own-target-headers.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-all-target-headers.hmap -iquote /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-project-headers.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/DerivedSources/i386 -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/DerivedSources -F/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/Debug-iphonesimulator -include /var/folders/3j/6z80gvr17wj5zs7y3hlp6j4m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/EmployeeAdmin_Prefix-dbgknbdmhggaojgdafvxwiziugni/EmployeeAdmin_Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/EmployeeAdmin.d --serialize-diagnostics /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/EmployeeAdmin.dia -c /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/components/EmployeeAdmin.m -o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/EmployeeAdmin.o36"5EF8A558-3EA7-49C6-9927-41B707496AF6-
+
+CCompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/EmployeeAdminMediator.o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/EmployeeAdminMediator.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s371645605.234776
+e371645605.314740
+r1
+xCompileC
+xbuild/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/EmployeeAdminMediator.o
+x/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/EmployeeAdminMediator.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection147"Compile /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/EmployeeAdminMediator.m414a3ca5dc26b641^6afa50a5dc26b641^---0#0#0#-19%DVTDocumentLocation2@155"file://localhost/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/EmployeeAdminMediator.m0000000000000000^4306"CompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/EmployeeAdminMediator.o Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/EmployeeAdminMediator.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Admin/.rvm/gems/ruby-1.9.3-p194/bin:/Users/Admin/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/Admin/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/Admin/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/Admin/android-sdks:/Users/Admin/android-sdks/tools:/Users/Admin/android-sdks/platform-tools:/Users/Admin/android-sdks/add-ons"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=4.3 -iquote /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-generated-files.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-own-target-headers.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-all-target-headers.hmap -iquote /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-project-headers.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/DerivedSources/i386 -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/DerivedSources -F/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/Debug-iphonesimulator -include /var/folders/3j/6z80gvr17wj5zs7y3hlp6j4m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/EmployeeAdmin_Prefix-dbgknbdmhggaojgdafvxwiziugni/EmployeeAdmin_Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/EmployeeAdminMediator.d --serialize-diagnostics /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/EmployeeAdminMediator.dia -c /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/EmployeeAdminMediator.m -o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/EmployeeAdminMediator.o36"5E2D99C4-78CD-4B13-AEAC-87DED49D988A-
+
+CCompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/GetUserRolesCommand.o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/GetUserRolesCommand.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s371645605.010458
+e371645605.050605
+r1
+xCompileC
+xbuild/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/GetUserRolesCommand.o
+x/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/GetUserRolesCommand.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection151"Compile /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/GetUserRolesCommand.m73d702a5dc26b641^36060da5dc26b641^---0#0#0#-19%DVTDocumentLocation2@159"file://localhost/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/GetUserRolesCommand.m0000000000000000^4306"CompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/GetUserRolesCommand.o Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/GetUserRolesCommand.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Admin/.rvm/gems/ruby-1.9.3-p194/bin:/Users/Admin/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/Admin/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/Admin/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/Admin/android-sdks:/Users/Admin/android-sdks/tools:/Users/Admin/android-sdks/platform-tools:/Users/Admin/android-sdks/add-ons"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=4.3 -iquote /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-generated-files.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-own-target-headers.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-all-target-headers.hmap -iquote /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-project-headers.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/DerivedSources/i386 -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/DerivedSources -F/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/Debug-iphonesimulator -include /var/folders/3j/6z80gvr17wj5zs7y3hlp6j4m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/EmployeeAdmin_Prefix-dbgknbdmhggaojgdafvxwiziugni/EmployeeAdmin_Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/GetUserRolesCommand.d --serialize-diagnostics /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/GetUserRolesCommand.dia -c /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/GetUserRolesCommand.m -o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/GetUserRolesCommand.o36"F2AF6233-CCAC-4EC0-AD34-966730F7A8BD-
+
+CCompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/GetUsersCommand.o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/GetUsersCommand.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s371645605.010929
+e371645605.045771
+r1
+xCompileC
+xbuild/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/GetUsersCommand.o
+x/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/GetUsersCommand.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection147"Compile /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/GetUsersCommand.medf502a5dc26b641^60c70ba5dc26b641^---0#0#0#-19%DVTDocumentLocation2@155"file://localhost/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/GetUsersCommand.m0000000000000000^4282"CompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/GetUsersCommand.o Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/GetUsersCommand.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Admin/.rvm/gems/ruby-1.9.3-p194/bin:/Users/Admin/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/Admin/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/Admin/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/Admin/android-sdks:/Users/Admin/android-sdks/tools:/Users/Admin/android-sdks/platform-tools:/Users/Admin/android-sdks/add-ons"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=4.3 -iquote /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-generated-files.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-own-target-headers.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-all-target-headers.hmap -iquote /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-project-headers.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/DerivedSources/i386 -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/DerivedSources -F/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/Debug-iphonesimulator -include /var/folders/3j/6z80gvr17wj5zs7y3hlp6j4m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/EmployeeAdmin_Prefix-dbgknbdmhggaojgdafvxwiziugni/EmployeeAdmin_Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/GetUsersCommand.d --serialize-diagnostics /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/GetUsersCommand.dia -c /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/GetUsersCommand.m -o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/GetUsersCommand.o36"01E89A90-B559-4993-A3C8-CBA7B8859ED5-
+
+CCompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/StartupCommand.o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/StartupCommand.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s371645605.033074
+e371645605.127230
+r1
+xCompileC
+xbuild/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/StartupCommand.o
+x/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/StartupCommand.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection146"Compile /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/StartupCommand.m04a908a5dc26b641^519f20a5dc26b641^---0#0#0#-19%DVTDocumentLocation2@154"file://localhost/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/StartupCommand.m0000000000000000^4276"CompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/StartupCommand.o Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/StartupCommand.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Admin/.rvm/gems/ruby-1.9.3-p194/bin:/Users/Admin/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/Admin/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/Admin/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/Admin/android-sdks:/Users/Admin/android-sdks/tools:/Users/Admin/android-sdks/platform-tools:/Users/Admin/android-sdks/add-ons"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=4.3 -iquote /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-generated-files.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-own-target-headers.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-all-target-headers.hmap -iquote /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-project-headers.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/DerivedSources/i386 -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/DerivedSources -F/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/Debug-iphonesimulator -include /var/folders/3j/6z80gvr17wj5zs7y3hlp6j4m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/EmployeeAdmin_Prefix-dbgknbdmhggaojgdafvxwiziugni/EmployeeAdmin_Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/StartupCommand.d --serialize-diagnostics /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/StartupCommand.dia -c /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/StartupCommand.m -o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/StartupCommand.o36"23106D0B-FD67-4D6C-8457-C8D5ECEB2F29-
+
+CCompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UpdateUserCommand.o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/UpdateUserCommand.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s371645605.047080
+e371645605.084627
+r1
+xCompileC
+xbuild/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UpdateUserCommand.o
+x/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/UpdateUserCommand.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection149"Compile /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/UpdateUserCommand.mc03c0ca5dc26b641^99b815a5dc26b641^---0#0#0#-19%DVTDocumentLocation2@157"file://localhost/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/UpdateUserCommand.m0000000000000000^4294"CompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UpdateUserCommand.o Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/UpdateUserCommand.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Admin/.rvm/gems/ruby-1.9.3-p194/bin:/Users/Admin/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/Admin/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/Admin/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/Admin/android-sdks:/Users/Admin/android-sdks/tools:/Users/Admin/android-sdks/platform-tools:/Users/Admin/android-sdks/add-ons"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=4.3 -iquote /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-generated-files.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-own-target-headers.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-all-target-headers.hmap -iquote /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-project-headers.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/DerivedSources/i386 -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/DerivedSources -F/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/Debug-iphonesimulator -include /var/folders/3j/6z80gvr17wj5zs7y3hlp6j4m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/EmployeeAdmin_Prefix-dbgknbdmhggaojgdafvxwiziugni/EmployeeAdmin_Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UpdateUserCommand.d --serialize-diagnostics /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UpdateUserCommand.dia -c /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/UpdateUserCommand.m -o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UpdateUserCommand.o36"997D1DAF-DF73-48CE-A88C-8A9B3392D434-
+
+CCompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UpdateUserRolesCommand.o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/UpdateUserRolesCommand.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s371645605.051905
+e371645605.099151
+r1
+xCompileC
+xbuild/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UpdateUserRolesCommand.o
+x/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/UpdateUserRolesCommand.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection154"Compile /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/UpdateUserRolesCommand.m60780da5dc26b641^236b19a5dc26b641^---0#0#0#-19%DVTDocumentLocation2@162"file://localhost/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/UpdateUserRolesCommand.m0000000000000000^4324"CompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UpdateUserRolesCommand.o Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/UpdateUserRolesCommand.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Admin/.rvm/gems/ruby-1.9.3-p194/bin:/Users/Admin/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/Admin/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/Admin/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/Admin/android-sdks:/Users/Admin/android-sdks/tools:/Users/Admin/android-sdks/platform-tools:/Users/Admin/android-sdks/add-ons"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=4.3 -iquote /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-generated-files.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-own-target-headers.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-all-target-headers.hmap -iquote /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-project-headers.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/DerivedSources/i386 -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/DerivedSources -F/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/Debug-iphonesimulator -include /var/folders/3j/6z80gvr17wj5zs7y3hlp6j4m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/EmployeeAdmin_Prefix-dbgknbdmhggaojgdafvxwiziugni/EmployeeAdmin_Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UpdateUserRolesCommand.d --serialize-diagnostics /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UpdateUserRolesCommand.dia -c /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/UpdateUserRolesCommand.m -o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UpdateUserRolesCommand.o36"26C887C0-D437-4BE7-9BCA-7757BFF44539-
+
+CCompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserForm.o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/components/UserForm.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s371645605.140387
+e371645605.255756
+r1
+xCompileC
+xbuild/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserForm.o
+x/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/components/UserForm.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/components/UserForm.m:36:28: warning: 'initWithFrame:reuseIdentifier:' is deprecated: first deprecated in iOS 3.0 [-Wdeprecated-declarations]
+o        UITableViewCell *cell = [[[UITableViewCell alloc] initWithFrame:CGRectZero reuseIdentifier:nil] autorelease];
+o                                  ^
+o/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/components/UserForm.m:38:8: warning: 'text' is deprecated: first deprecated in iOS 3.0 [-Wdeprecated-declarations]
+o                cell.text = @"User Roles";
+o                     ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:211:39: note: 'text' declared here
+o@property(nonatomic,copy)   NSString *text NS_DEPRECATED_IOS(2_0, 3_0);                        // default is nil
+o                                      ^
+o2 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection145"Compile /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/components/UserForm.m2f1824a5dc26b641^040142a5dc26b641^-1103"/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/components/UserForm.m:36:28: warning: 'initWithFrame:reuseIdentifier:' is deprecated: first deprecated in iOS 3.0 [-Wdeprecated-declarations]        UITableViewCell *cell = [[[UITableViewCell alloc] initWithFrame:CGRectZero reuseIdentifier:nil] autorelease];                                  ^/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/components/UserForm.m:38:8: warning: 'text' is deprecated: first deprecated in iOS 3.0 [-Wdeprecated-declarations]                cell.text = @"User Roles";                     ^/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:211:39: note: 'text' declared here@property(nonatomic,copy)   NSString *text NS_DEPRECATED_IOS(2_0, 3_0);                        // default is nil                                      ^2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@75"'initWithFrame:reuseIdentifier:' is deprecated: first deprecated in iOS 3.0-371645605#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@153"file://localhost/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/components/UserForm.m0000000000000000^35#27#35#27#1119#0#12"Deprecations--2@49"'text' is deprecated: first deprecated in iOS 3.0-371645605#18446744073709551615#0#1(2@20"'text' declared here-371645605#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@199"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h0000000000000000^210#38#210#38#11779#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@153"file://localhost/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/components/UserForm.m0000000000000000^37#7#37#7#1257#0#12"Deprecations--0#0#0#-19%DVTDocumentLocation4@153"file://localhost/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/components/UserForm.m0000000000000000^4250"CompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserForm.o Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/components/UserForm.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Admin/.rvm/gems/ruby-1.9.3-p194/bin:/Users/Admin/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/Admin/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/Admin/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/Admin/android-sdks:/Users/Admin/android-sdks/tools:/Users/Admin/android-sdks/platform-tools:/Users/Admin/android-sdks/add-ons"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=4.3 -iquote /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-generated-files.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-own-target-headers.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-all-target-headers.hmap -iquote /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-project-headers.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/DerivedSources/i386 -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/DerivedSources -F/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/Debug-iphonesimulator -include /var/folders/3j/6z80gvr17wj5zs7y3hlp6j4m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/EmployeeAdmin_Prefix-dbgknbdmhggaojgdafvxwiziugni/EmployeeAdmin_Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserForm.d --serialize-diagnostics /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserForm.dia -c /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/components/UserForm.m -o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserForm.o36"D1FAC33E-2E1D-4A1C-90AA-740D138F2C57-
+
+CCompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserFormMediator.o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/UserFormMediator.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s371645605.242117
+e371645605.335651
+r1
+xCompileC
+xbuild/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserFormMediator.o
+x/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/UserFormMediator.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection142"Compile /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/UserFormMediator.mb22a3ea5dc26b641^7afd55a5dc26b641^---0#0#0#-19%DVTDocumentLocation2@150"file://localhost/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/UserFormMediator.m0000000000000000^4276"CompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserFormMediator.o Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/UserFormMediator.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Admin/.rvm/gems/ruby-1.9.3-p194/bin:/Users/Admin/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/Admin/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/Admin/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/Admin/android-sdks:/Users/Admin/android-sdks/tools:/Users/Admin/android-sdks/platform-tools:/Users/Admin/android-sdks/add-ons"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=4.3 -iquote /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-generated-files.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-own-target-headers.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-all-target-headers.hmap -iquote /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-project-headers.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/DerivedSources/i386 -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/DerivedSources -F/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/Debug-iphonesimulator -include /var/folders/3j/6z80gvr17wj5zs7y3hlp6j4m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/EmployeeAdmin_Prefix-dbgknbdmhggaojgdafvxwiziugni/EmployeeAdmin_Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserFormMediator.d --serialize-diagnostics /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserFormMediator.dia -c /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/UserFormMediator.m -o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserFormMediator.o36"EE1C766A-661D-42DF-ACAB-E82DFCC34A18-
+
+CCompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserList.o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/components/UserList.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s371645605.152645
+e371645605.240842
+r1
+xCompileC
+xbuild/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserList.o
+x/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/components/UserList.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/components/UserList.m:50:16: warning: 'initWithFrame:reuseIdentifier:' is deprecated: first deprecated in iOS 3.0 [-Wdeprecated-declarations]
+o                userCell = [[[UITableViewCell alloc] initWithFrame:CGRectZero reuseIdentifier:USER_CELL_ID] autorelease];
+o                             ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:207:1: note: method 'initWithFrame:reuseIdentifier:' declared here
+o- (id)initWithFrame:(CGRect)frame reuseIdentifier:(NSString *)reuseIdentifier NS_DEPRECATED_IOS(2_0, 3_0);
+o^
+o/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/components/UserList.m:54:11: warning: 'text' is deprecated: first deprecated in iOS 3.0 [-Wdeprecated-declarations]
+o        userCell.text = [userVO givenName];
+o                 ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:211:39: note: 'text' declared here
+o@property(nonatomic,copy)   NSString *text NS_DEPRECATED_IOS(2_0, 3_0);                        // default is nil
+o                                      ^
+o2 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection145"Compile /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/components/UserList.m795927a5dc26b641^0fb93da5dc26b641^-1460"/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/components/UserList.m:50:16: warning: 'initWithFrame:reuseIdentifier:' is deprecated: first deprecated in iOS 3.0 [-Wdeprecated-declarations]                userCell = [[[UITableViewCell alloc] initWithFrame:CGRectZero reuseIdentifier:USER_CELL_ID] autorelease];                             ^/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:207:1: note: method 'initWithFrame:reuseIdentifier:' declared here- (id)initWithFrame:(CGRect)frame reuseIdentifier:(NSString *)reuseIdentifier NS_DEPRECATED_IOS(2_0, 3_0);^/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/components/UserList.m:54:11: warning: 'text' is deprecated: first deprecated in iOS 3.0 [-Wdeprecated-declarations]        userCell.text = [userVO givenName];                 ^/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:211:39: note: 'text' declared here@property(nonatomic,copy)   NSString *text NS_DEPRECATED_IOS(2_0, 3_0);                        // default is nil                                      ^2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@75"'initWithFrame:reuseIdentifier:' is deprecated: first deprecated in iOS 3.0-371645605#18446744073709551615#0#1(2@53"Method 'initWithFrame:reuseIdentifier:' declared here-371645605#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@199"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h0000000000000000^206#0#206#0#11397#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@153"file://localhost/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/components/UserList.m0000000000000000^49#15#49#15#1604#0#12"Deprecations--2@49"'text' is deprecated: first deprecated in iOS 3.0-371645605#18446744073709551615#0#1(2@20"'text' declared here-371645605#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@199"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h0000000000000000^210#38#210#38#11779#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@153"file://localhost/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/components/UserList.m0000000000000000^53#10#53#10#1837#0#12"Deprecations--0#0#0#-19%DVTDocumentLocation4@153"file://localhost/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/components/UserList.m0000000000000000^4250"CompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserList.o Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/components/UserList.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Admin/.rvm/gems/ruby-1.9.3-p194/bin:/Users/Admin/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/Admin/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/Admin/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/Admin/android-sdks:/Users/Admin/android-sdks/tools:/Users/Admin/android-sdks/platform-tools:/Users/Admin/android-sdks/add-ons"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=4.3 -iquote /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-generated-files.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-own-target-headers.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-all-target-headers.hmap -iquote /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-project-headers.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/DerivedSources/i386 -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/DerivedSources -F/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/Debug-iphonesimulator -include /var/folders/3j/6z80gvr17wj5zs7y3hlp6j4m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/EmployeeAdmin_Prefix-dbgknbdmhggaojgdafvxwiziugni/EmployeeAdmin_Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserList.d --serialize-diagnostics /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserList.dia -c /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/components/UserList.m -o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserList.o36"4EFF6267-1F63-48CB-9977-210DE41AE2DC-
+
+CCompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserListMediator.o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/UserListMediator.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s371645605.258344
+e371645605.341835
+r1
+xCompileC
+xbuild/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserListMediator.o
+x/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/UserListMediator.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection142"Compile /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/UserListMediator.m3f5842a5dc26b641^6f8257a5dc26b641^---0#0#0#-19%DVTDocumentLocation2@150"file://localhost/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/UserListMediator.m0000000000000000^4276"CompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserListMediator.o Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/UserListMediator.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Admin/.rvm/gems/ruby-1.9.3-p194/bin:/Users/Admin/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/Admin/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/Admin/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/Admin/android-sdks:/Users/Admin/android-sdks/tools:/Users/Admin/android-sdks/platform-tools:/Users/Admin/android-sdks/add-ons"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=4.3 -iquote /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-generated-files.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-own-target-headers.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-all-target-headers.hmap -iquote /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-project-headers.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/DerivedSources/i386 -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/DerivedSources -F/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/Debug-iphonesimulator -include /var/folders/3j/6z80gvr17wj5zs7y3hlp6j4m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/EmployeeAdmin_Prefix-dbgknbdmhggaojgdafvxwiziugni/EmployeeAdmin_Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserListMediator.d --serialize-diagnostics /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserListMediator.dia -c /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/UserListMediator.m -o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserListMediator.o36"3AEAEAFA-354F-4CE7-9BEF-310A33CF4A23-
+
+CCompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserProxy.o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/model/UserProxy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s371645605.100391
+e371645605.135822
+r1
+xCompileC
+xbuild/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserProxy.o
+x/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/model/UserProxy.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection136"Compile /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/model/UserProxy.mb9df19a5dc26b641^e5d022a5dc26b641^---0#0#0#-19%DVTDocumentLocation2@144"file://localhost/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/model/UserProxy.m0000000000000000^4236"CompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserProxy.o Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/model/UserProxy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Admin/.rvm/gems/ruby-1.9.3-p194/bin:/Users/Admin/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/Admin/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/Admin/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/Admin/android-sdks:/Users/Admin/android-sdks/tools:/Users/Admin/android-sdks/platform-tools:/Users/Admin/android-sdks/add-ons"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=4.3 -iquote /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-generated-files.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-own-target-headers.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-all-target-headers.hmap -iquote /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-project-headers.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/DerivedSources/i386 -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/DerivedSources -F/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/Debug-iphonesimulator -include /var/folders/3j/6z80gvr17wj5zs7y3hlp6j4m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/EmployeeAdmin_Prefix-dbgknbdmhggaojgdafvxwiziugni/EmployeeAdmin_Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserProxy.d --serialize-diagnostics /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserProxy.dia -c /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/model/UserProxy.m -o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserProxy.o36"A63A5804-6B6B-4BE9-9307-DDE5A6DD5E3E-
+
+CCompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserRoles.o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/components/UserRoles.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s371645605.168732
+e371645605.260506
+r1
+xCompileC
+xbuild/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserRoles.o
+x/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/components/UserRoles.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/components/UserRoles.m:45:16: warning: 'initWithFrame:reuseIdentifier:' is deprecated: first deprecated in iOS 3.0 [-Wdeprecated-declarations]
+o                roleCell = [[[UITableViewCell alloc] initWithFrame:CGRectZero reuseIdentifier:ROLE_CELL_ID] autorelease];
+o                             ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:207:1: note: method 'initWithFrame:reuseIdentifier:' declared here
+o- (id)initWithFrame:(CGRect)frame reuseIdentifier:(NSString *)reuseIdentifier NS_DEPRECATED_IOS(2_0, 3_0);
+o^
+o/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/components/UserRoles.m:49:11: warning: 'text' is deprecated: first deprecated in iOS 3.0 [-Wdeprecated-declarations]
+o        roleCell.text = role;
+o                 ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:211:39: note: 'text' declared here
+o@property(nonatomic,copy)   NSString *text NS_DEPRECATED_IOS(2_0, 3_0);                        // default is nil
+o                                      ^
+o2 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection146"Compile /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/components/UserRoles.mc7622ba5dc26b641^e57a43a5dc26b641^-1448"/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/components/UserRoles.m:45:16: warning: 'initWithFrame:reuseIdentifier:' is deprecated: first deprecated in iOS 3.0 [-Wdeprecated-declarations]                roleCell = [[[UITableViewCell alloc] initWithFrame:CGRectZero reuseIdentifier:ROLE_CELL_ID] autorelease];                             ^/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:207:1: note: method 'initWithFrame:reuseIdentifier:' declared here- (id)initWithFrame:(CGRect)frame reuseIdentifier:(NSString *)reuseIdentifier NS_DEPRECATED_IOS(2_0, 3_0);^/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/components/UserRoles.m:49:11: warning: 'text' is deprecated: first deprecated in iOS 3.0 [-Wdeprecated-declarations]        roleCell.text = role;                 ^/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:211:39: note: 'text' declared here@property(nonatomic,copy)   NSString *text NS_DEPRECATED_IOS(2_0, 3_0);                        // default is nil                                      ^2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@75"'initWithFrame:reuseIdentifier:' is deprecated: first deprecated in iOS 3.0-371645605#18446744073709551615#0#1(2@53"Method 'initWithFrame:reuseIdentifier:' declared here-371645605#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@199"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h0000000000000000^206#0#206#0#11397#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@154"file://localhost/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/components/UserRoles.m0000000000000000^44#15#44#15#1264#0#12"Deprecations--2@49"'text' is deprecated: first deprecated in iOS 3.0-371645605#18446744073709551615#0#1(2@20"'text' declared here-371645605#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@199"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h0000000000000000^210#38#210#38#11779#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@154"file://localhost/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/components/UserRoles.m0000000000000000^48#10#48#10#1503#0#12"Deprecations--0#0#0#-19%DVTDocumentLocation4@154"file://localhost/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/components/UserRoles.m0000000000000000^4256"CompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserRoles.o Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/components/UserRoles.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Admin/.rvm/gems/ruby-1.9.3-p194/bin:/Users/Admin/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/Admin/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/Admin/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/Admin/android-sdks:/Users/Admin/android-sdks/tools:/Users/Admin/android-sdks/platform-tools:/Users/Admin/android-sdks/add-ons"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=4.3 -iquote /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-generated-files.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-own-target-headers.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-all-target-headers.hmap -iquote /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-project-headers.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/DerivedSources/i386 -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/DerivedSources -F/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/Debug-iphonesimulator -include /var/folders/3j/6z80gvr17wj5zs7y3hlp6j4m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/EmployeeAdmin_Prefix-dbgknbdmhggaojgdafvxwiziugni/EmployeeAdmin_Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserRoles.d --serialize-diagnostics /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserRoles.dia -c /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/components/UserRoles.m -o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserRoles.o36"6BE30B95-9391-4FDC-BB7A-E73A3463B0D9-
+
+CCompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserRolesEnum.o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/model/enum/UserRolesEnum.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s371645605.085988
+e371645605.118582
+r1
+xCompileC
+xbuild/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserRolesEnum.o
+x/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/model/enum/UserRolesEnum.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection145"Compile /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/model/enum/UserRolesEnum.mef3716a5dc26b641^16691ea5dc26b641^---0#0#0#-19%DVTDocumentLocation2@153"file://localhost/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/model/enum/UserRolesEnum.m0000000000000000^4270"CompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserRolesEnum.o Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/model/enum/UserRolesEnum.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Admin/.rvm/gems/ruby-1.9.3-p194/bin:/Users/Admin/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/Admin/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/Admin/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/Admin/android-sdks:/Users/Admin/android-sdks/tools:/Users/Admin/android-sdks/platform-tools:/Users/Admin/android-sdks/add-ons"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=4.3 -iquote /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-generated-files.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-own-target-headers.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-all-target-headers.hmap -iquote /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-project-headers.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/DerivedSources/i386 -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/DerivedSources -F/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/Debug-iphonesimulator -include /var/folders/3j/6z80gvr17wj5zs7y3hlp6j4m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/EmployeeAdmin_Prefix-dbgknbdmhggaojgdafvxwiziugni/EmployeeAdmin_Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserRolesEnum.d --serialize-diagnostics /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserRolesEnum.dia -c /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/model/enum/UserRolesEnum.m -o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserRolesEnum.o36"A5064EC8-9427-4BF1-9E2C-92BD4B33DAC6-
+
+CCompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserRolesMediator.o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/UserRolesMediator.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s371645605.262115
+e371645605.349129
+r1
+xCompileC
+xbuild/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserRolesMediator.o
+x/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/UserRolesMediator.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection143"Compile /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/UserRolesMediator.med4a43a5dc26b641^4e6159a5dc26b641^---0#0#0#-19%DVTDocumentLocation2@151"file://localhost/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/UserRolesMediator.m0000000000000000^4282"CompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserRolesMediator.o Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/UserRolesMediator.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Admin/.rvm/gems/ruby-1.9.3-p194/bin:/Users/Admin/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/Admin/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/Admin/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/Admin/android-sdks:/Users/Admin/android-sdks/tools:/Users/Admin/android-sdks/platform-tools:/Users/Admin/android-sdks/add-ons"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=4.3 -iquote /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-generated-files.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-own-target-headers.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-all-target-headers.hmap -iquote /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-project-headers.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/DerivedSources/i386 -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/DerivedSources -F/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/Debug-iphonesimulator -include /var/folders/3j/6z80gvr17wj5zs7y3hlp6j4m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/EmployeeAdmin_Prefix-dbgknbdmhggaojgdafvxwiziugni/EmployeeAdmin_Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserRolesMediator.d --serialize-diagnostics /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserRolesMediator.dia -c /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/view/UserRolesMediator.m -o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserRolesMediator.o36"D813380D-DD85-40FF-AFB8-DF03CAE51453-
+
+CCompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserRolesProxy.o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/model/UserRolesProxy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s371645605.100520
+e371645605.137846
+r1
+xCompileC
+xbuild/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserRolesProxy.o
+x/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/model/UserRolesProxy.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection141"Compile /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/model/UserRolesProxy.mf8e019a5dc26b641^0eda23a5dc26b641^---0#0#0#-19%DVTDocumentLocation2@149"file://localhost/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/model/UserRolesProxy.m0000000000000000^4266"CompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserRolesProxy.o Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/model/UserRolesProxy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Admin/.rvm/gems/ruby-1.9.3-p194/bin:/Users/Admin/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/Admin/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/Admin/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/Admin/android-sdks:/Users/Admin/android-sdks/tools:/Users/Admin/android-sdks/platform-tools:/Users/Admin/android-sdks/add-ons"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=4.3 -iquote /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-generated-files.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-own-target-headers.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-all-target-headers.hmap -iquote /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-project-headers.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/DerivedSources/i386 -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/DerivedSources -F/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/Debug-iphonesimulator -include /var/folders/3j/6z80gvr17wj5zs7y3hlp6j4m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/EmployeeAdmin_Prefix-dbgknbdmhggaojgdafvxwiziugni/EmployeeAdmin_Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserRolesProxy.d --serialize-diagnostics /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserRolesProxy.dia -c /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/model/UserRolesProxy.m -o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserRolesProxy.o36"813656B9-3122-48FD-821F-1B5EBA83E417-
+
+CCompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserRolesVO.o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/model/vo/UserRolesVO.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s371645605.119904
+e371645605.151270
+r1
+xCompileC
+xbuild/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserRolesVO.o
+x/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/model/vo/UserRolesVO.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection141"Compile /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/model/vo/UserRolesVO.m3fe31ea5dc26b641^47c626a5dc26b641^---0#0#0#-19%DVTDocumentLocation2@149"file://localhost/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/model/vo/UserRolesVO.m0000000000000000^4254"CompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserRolesVO.o Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/model/vo/UserRolesVO.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Admin/.rvm/gems/ruby-1.9.3-p194/bin:/Users/Admin/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/Admin/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/Admin/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/Admin/android-sdks:/Users/Admin/android-sdks/tools:/Users/Admin/android-sdks/platform-tools:/Users/Admin/android-sdks/add-ons"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=4.3 -iquote /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-generated-files.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-own-target-headers.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-all-target-headers.hmap -iquote /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-project-headers.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/DerivedSources/i386 -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/DerivedSources -F/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/Debug-iphonesimulator -include /var/folders/3j/6z80gvr17wj5zs7y3hlp6j4m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/EmployeeAdmin_Prefix-dbgknbdmhggaojgdafvxwiziugni/EmployeeAdmin_Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserRolesVO.d --serialize-diagnostics /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserRolesVO.dia -c /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/model/vo/UserRolesVO.m -o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserRolesVO.o36"091B0218-CAC9-41F2-8C74-B91D2C7AFFC2-
+
+CCompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserVO.o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/model/vo/UserVO.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s371645605.128552
+e371645605.167222
+r1
+xCompileC
+xbuild/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserVO.o
+x/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/model/vo/UserVO.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection136"Compile /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/model/vo/UserVO.m691921a5dc26b641^b1dc2aa5dc26b641^---0#0#0#-19%DVTDocumentLocation2@144"file://localhost/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/model/vo/UserVO.m0000000000000000^4224"CompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserVO.o Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/model/vo/UserVO.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Admin/.rvm/gems/ruby-1.9.3-p194/bin:/Users/Admin/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/Admin/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/Admin/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/Admin/android-sdks:/Users/Admin/android-sdks/tools:/Users/Admin/android-sdks/platform-tools:/Users/Admin/android-sdks/add-ons"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=4.3 -iquote /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-generated-files.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-own-target-headers.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-all-target-headers.hmap -iquote /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-project-headers.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/DerivedSources/i386 -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/DerivedSources -F/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/Debug-iphonesimulator -include /var/folders/3j/6z80gvr17wj5zs7y3hlp6j4m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/EmployeeAdmin_Prefix-dbgknbdmhggaojgdafvxwiziugni/EmployeeAdmin_Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserVO.d --serialize-diagnostics /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserVO.dia -c /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/src/org/puremvc/objectivec/demos/uikit/employeeadmin/model/vo/UserVO.m -o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/UserVO.o36"8331EA40-C5E3-4B02-9CAA-95A5033FE649-
+
+CCompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/main.o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s371645605.324188
+e371645605.352556
+r1
+xCompileC
+xbuild/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/main.o
+x/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/main.m520c54a5dc26b641^1c415aa5dc26b641^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/main.m0000000000000000^4088"CompileC build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/main.o Shared/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Admin/.rvm/gems/ruby-1.9.3-p194/bin:/Users/Admin/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/Admin/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/Admin/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/Admin/android-sdks:/Users/Admin/android-sdks/tools:/Users/Admin/android-sdks/platform-tools:/Users/Admin/android-sdks/add-ons"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=4.3 -iquote /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-generated-files.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-own-target-headers.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-all-target-headers.hmap -iquote /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-project-headers.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/DerivedSources/i386 -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/DerivedSources -F/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/Debug-iphonesimulator -include /var/folders/3j/6z80gvr17wj5zs7y3hlp6j4m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/EmployeeAdmin_Prefix-dbgknbdmhggaojgdafvxwiziugni/EmployeeAdmin_Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/main.dia -c /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/main.m -o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/main.o36"49D182B5-3CB9-4FF5-ADA9-72C4E47C3693-
+
+CCompileXIB /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/iPad/MainWindow_Pad.xib
+s371645603.664986
+e371645604.319800
+r1
+xCompileXIB
+x/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/iPad/MainWindow_Pad.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compiling /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/iPad/MainWindow_Pad.xib7250aaa3dc26b641^32e751a4dc26b641^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/iPad/MainWindow_Pad.xib0000000000000000^1228"CompileXIB iPad/MainWindow_Pad.xib    cd /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Admin/.rvm/gems/ruby-1.9.3-p194/bin:/Users/Admin/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/Admin/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/Admin/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/Admin/android-sdks:/Users/Admin/android-sdks/tools:/Users/Admin/android-sdks/platform-tools:/Users/Admin/android-sdks/add-ons"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Frank/frankified_build/./EmployeeAdmin.app/MainWindow_Pad.nib /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/iPad/MainWindow_Pad.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk36"4B1513F3-786F-494B-BFFA-924760C2D42F-
+
+CCompileXIB /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/iPhone/MainWindow_Phone.xib
+s371645603.664949
+e371645604.345529
+r1
+xCompileXIB
+x/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/iPhone/MainWindow_Phone.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compiling /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/iPhone/MainWindow_Phone.xib5050aaa3dc26b641^a48c58a4dc26b641^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/iPhone/MainWindow_Phone.xib0000000000000000^1238"CompileXIB iPhone/MainWindow_Phone.xib    cd /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Admin/.rvm/gems/ruby-1.9.3-p194/bin:/Users/Admin/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/Admin/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/Admin/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/Admin/android-sdks:/Users/Admin/android-sdks/tools:/Users/Admin/android-sdks/platform-tools:/Users/Admin/android-sdks/add-ons"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Frank/frankified_build/./EmployeeAdmin.app/MainWindow_Phone.nib /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/iPhone/MainWindow_Phone.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk36"CFA99024-4293-4A3E-89DD-D286DC226674-
+
+CGenerateDSYMFile /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/Debug-iphonesimulator/EmployeeAdmin.app.dSYM /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Frank/frankified_build/./EmployeeAdmin.app/EmployeeAdmin
+s371645605.550472
+e371645605.740386
+r1
+xGenerateDSYMFile
+x/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/Debug-iphonesimulator/EmployeeAdmin.app.dSYM
+x/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Frank/frankified_build/./EmployeeAdmin.app/EmployeeAdmin
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Generating /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/Debug-iphonesimulator/EmployeeAdmin.app.dSYMda1e8da5dc26b641^1e8bbda5dc26b641^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/Debug-iphonesimulator/EmployeeAdmin.app.dSYM000000000080d041^999"GenerateDSYMFile build/Debug-iphonesimulator/EmployeeAdmin.app.dSYM Frank/frankified_build/./EmployeeAdmin.app/EmployeeAdmin    cd /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Admin/.rvm/gems/ruby-1.9.3-p194/bin:/Users/Admin/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/Admin/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/Admin/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/Admin/android-sdks:/Users/Admin/android-sdks/tools:/Users/Admin/android-sdks/platform-tools:/Users/Admin/android-sdks/add-ons"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Frank/frankified_build/./EmployeeAdmin.app/EmployeeAdmin -o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/Debug-iphonesimulator/EmployeeAdmin.app.dSYM36"7CF394B3-0320-4866-8551-D447DEF25F54-
+
+CLd /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Frank/frankified_build/./EmployeeAdmin.app/EmployeeAdmin normal i386
+s371645605.358936
+e371645605.543210
+r1
+xLd
+x/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Frank/frankified_build/./EmployeeAdmin.app/EmployeeAdmin
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Link /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Frank/frankified_build/./EmployeeAdmin.app/EmployeeAdmincafc5ba5dc26b641^e00f8ba5dc26b641^---0#0#0#--1875"Ld Frank/frankified_build/./EmployeeAdmin.app/EmployeeAdmin normal i386    cd /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Admin/.rvm/gems/ruby-1.9.3-p194/bin:/Users/Admin/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/Admin/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/Admin/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/Admin/android-sdks:/Users/Admin/android-sdks/tools:/Users/Admin/android-sdks/platform-tools:/Users/Admin/android-sdks/add-ons"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -L/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/Debug-iphonesimulator -L/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/lib/PureMVC -L/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Frank -F/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/Debug-iphonesimulator -filelist /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/Objects-normal/i386/EmployeeAdmin.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -ObjC -all_load -all_load -ObjC -framework CFNetwork -framework Security -lShelley -lCocoaHTTPServer -lFrank -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=4.3 -framework Foundation -framework UIKit -framework CoreGraphics /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Shared/lib/PureMVC/PureMVC_ObjectiveC_1_1.a -o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Frank/frankified_build/./EmployeeAdmin.app/EmployeeAdmin36"02E329F4-78A5-418E-85D0-1D439BEE0EE5-
+
+CProcessInfoPlistFile /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Frank/frankified_build/./EmployeeAdmin.app/Info.plist EmployeeAdmin-Info.plist
+s371645603.648420
+e371645603.651830
+r1
+xProcessInfoPlistFile
+x/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Frank/frankified_build/./EmployeeAdmin.app/Info.plist
+xEmployeeAdmin-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection32"Process EmployeeAdmin-Info.plist191fa6a3dc26b641^ecdea6a3dc26b641^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/EmployeeAdmin-Info.plist0000000000000000^999"ProcessInfoPlistFile Frank/frankified_build/./EmployeeAdmin.app/Info.plist EmployeeAdmin-Info.plist    cd /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Admin/.rvm/gems/ruby-1.9.3-p194/bin:/Users/Admin/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/Admin/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/Admin/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/Admin/android-sdks:/Users/Admin/android-sdks/tools:/Users/Admin/android-sdks/platform-tools:/Users/Admin/android-sdks/add-ons"    builtin-infoPlistUtility EmployeeAdmin-Info.plist -genpkginfo /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Frank/frankified_build/./EmployeeAdmin.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Frank/frankified_build/./EmployeeAdmin.app/Info.plist36"C8E5834A-0848-4283-9009-79CD493FF6FD-
+
+CProcessPCH /var/folders/3j/6z80gvr17wj5zs7y3hlp6j4m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/EmployeeAdmin_Prefix-dbgknbdmhggaojgdafvxwiziugni/EmployeeAdmin_Prefix.pch.pth EmployeeAdmin_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s371645604.353874
+e371645604.921439
+r1
+xProcessPCH
+x/var/folders/3j/6z80gvr17wj5zs7y3hlp6j4m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/EmployeeAdmin_Prefix-dbgknbdmhggaojgdafvxwiziugni/EmployeeAdmin_Prefix.pch.pth
+xEmployeeAdmin_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection35"Precompile EmployeeAdmin_Prefix.pch2fc45aa4dc26b641^c1e3eba4dc26b641^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/EmployeeAdmin_Prefix.pch0000000000000000^4083"ProcessPCH /var/folders/3j/6z80gvr17wj5zs7y3hlp6j4m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/EmployeeAdmin_Prefix-dbgknbdmhggaojgdafvxwiziugni/EmployeeAdmin_Prefix.pch.pth EmployeeAdmin_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Admin/.rvm/gems/ruby-1.9.3-p194/bin:/Users/Admin/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/Admin/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/Admin/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/Admin/android-sdks:/Users/Admin/android-sdks/tools:/Users/Admin/android-sdks/platform-tools:/Users/Admin/android-sdks/add-ons"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=4.3 -iquote /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-generated-files.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-own-target-headers.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-all-target-headers.hmap -iquote /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/EmployeeAdmin-project-headers.hmap -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/DerivedSources/i386 -I/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/EmployeeAdmin.build/Debug-iphonesimulator/EmployeeAdmin.build/DerivedSources -F/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/Debug-iphonesimulator --serialize-diagnostics /var/folders/3j/6z80gvr17wj5zs7y3hlp6j4m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/EmployeeAdmin_Prefix-dbgknbdmhggaojgdafvxwiziugni/EmployeeAdmin_Prefix.pch.dia -c /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/EmployeeAdmin_Prefix.pch -o /var/folders/3j/6z80gvr17wj5zs7y3hlp6j4m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/EmployeeAdmin_Prefix-dbgknbdmhggaojgdafvxwiziugni/EmployeeAdmin_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/3j/6z80gvr17wj5zs7y3hlp6j4m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/EmployeeAdmin_Prefix-dbgknbdmhggaojgdafvxwiziugni/EmployeeAdmin_Prefix.pch.d36"9818CCB2-811C-4A01-A830-ACB05B97FACF-
+
+CSymLink /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/Debug-iphonesimulator/EmployeeAdmin.app /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Frank/frankified_build/./EmployeeAdmin.app
+s371645603.648431
+e371645603.656707
+r1
+xSymLink
+x/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/Debug-iphonesimulator/EmployeeAdmin.app
+x/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Frank/frankified_build/./EmployeeAdmin.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Process /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/Debug-iphonesimulator/EmployeeAdmin.app0c22a6a3dc26b641^581ea8a3dc26b641^---0#0#0#--865"SymLink build/Debug-iphonesimulator/EmployeeAdmin.app Frank/frankified_build/./EmployeeAdmin.app    cd /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Admin/.rvm/gems/ruby-1.9.3-p194/bin:/Users/Admin/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/Admin/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/Admin/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/Admin/android-sdks:/Users/Admin/android-sdks/tools:/Users/Admin/android-sdks/platform-tools:/Users/Admin/android-sdks/add-ons"    /bin/ln -sf /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Frank/frankified_build/./EmployeeAdmin.app /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/build/Debug-iphonesimulator/EmployeeAdmin.app36"AB421B4A-62A1-45FF-B996-9E589E0870EC-
+
+CTouch /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Frank/frankified_build/./EmployeeAdmin.app
+s371645605.748951
+e371645605.753872
+r1
+xTouch
+x/Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Frank/frankified_build/./EmployeeAdmin.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Touch /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Frank/frankified_build/./EmployeeAdmin.app2dcfbfa5dc26b641^69fec0a5dc26b641^---0#0#0#--726"Touch Frank/frankified_build/./EmployeeAdmin.app    cd /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Admin/.rvm/gems/ruby-1.9.3-p194/bin:/Users/Admin/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/Admin/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/Admin/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/Admin/android-sdks:/Users/Admin/android-sdks/tools:/Users/Admin/android-sdks/platform-tools:/Users/Admin/android-sdks/add-ons"    /usr/bin/touch -c /Users/Admin/MobileApps/iPhone/EmployeeAdminiOSApp/Frank/frankified_build/./EmployeeAdmin.app36"12D5E29F-5976-4C7A-AA89-60575FB6BCDB-
+
