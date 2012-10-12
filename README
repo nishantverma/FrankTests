@@ -1,0 +1,19 @@
+Hi,
+
+This is a sample project where in I am using Frank automation framework for a native iOS app.
+
+The native iOS app I am using is the one which is provided as a test app  by Pete Hodgson for Frank.
+
+This project would mostly tell you how to author the acceptance tests for the native iOS app.
+
+The way Project is structured is :
+   1) Project has Employee Admin application
+   2) There is a Frank folder which contains "features" directory which hosts my_first.feature, this is the file where in we are writing the tests. 
+
+
+Please email me for any issues you face while trying to understand this. I actively maintain my own website on test automation and testing techniques. Feel free to refer those posts.
+
+You can reach me on nishuverma@gmail.com.
+
+
+Nishant Verma
